@@ -1,7 +1,11 @@
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background: #feceab;
+  font-family: "Poppins";
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 158, 94) 0%,
+    rgb(254, 94, 114) 94.3%
+  );
+  line-height: 1.5;
 }
 section.primary {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
@@ -11,10 +15,20 @@ section.primary {
   color: white;
   text-align: center;
   padding: 200px 0;
+  border-radius: 8px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 64px;
+}
+h2 {
+  font-family: "Anonymous Pro, monospace";
+  font-size: 34px;
+  font-weight: lighter;
 }
 .card {
   text-align: center;
-  background: #eb4a5f;
+  background: #5f6769;
   color: white;
 }
 footer {
