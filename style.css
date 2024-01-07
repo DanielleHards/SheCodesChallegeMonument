@@ -1,0 +1,28 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: #feceab;
+}
+section.primary {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/109/622/original/Monument.jpg?1704651518");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+.card {
+  text-align: center;
+  background: #eb4a5f;
+  color: white;
+}
+footer {
+  text-align: center;
+}
+footer span {
+  color: #eb4a5f;
+}
+footer a {
+  text-decoration: none;
+}
